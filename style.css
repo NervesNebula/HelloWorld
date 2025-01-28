@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.item{
+    border: solid 20px black;
+    margin: 20px;
+    padding: 30px;
+}
+
+.itemimage{
+    margin: 0px;
+    padding: 0px;
+}
+
+.expand{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:slateblue;
+    background-color: burlywood;
+    transition-property: letter-spacing, color, background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    cursor: pointer
+
+}
+
+.expand:hover{
+    letter-spacing: 20px;
+    color:rgb(241, 241, 114);
+    background-color: slateblue;
+    
+}
+
+.transition-box{
+
+    margin: 20px;
+    transition-property: transform, width, opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    opacity: 10%;
+    cursor: pointer
+
+}
+
+.transition-box:hover{
+    transform: scale(1.5) rotate(45deg);
+    opacity: 100%;
+
+}
+
+.transition-wasp{
+
+    margin: 20px;
+    transition-property: transform, width, opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    cursor: pointer
+
+}
+
+.transition-wasp:hover{
+    transform: scale(1.1) rotate(45deg);
+    opacity: 30%;
+
+}
